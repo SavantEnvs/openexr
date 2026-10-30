@@ -1,0 +1,5 @@
+project: savantenvs/openexr
+target: openexr_htj2k_fuzzer
+cmds:
+  - cmd: /mayhem/openexr_htj2k_fuzzer
+    libfuzzer: true

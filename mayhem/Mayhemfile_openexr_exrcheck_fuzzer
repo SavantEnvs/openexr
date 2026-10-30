@@ -1,0 +1,8 @@
+project: savantenvs/openexr
+target: openexr_exrcheck_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/openexr_exrcheck_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/openexr_exrcheck_fuzzer
+    libfuzzer: true

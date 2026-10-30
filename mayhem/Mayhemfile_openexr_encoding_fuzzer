@@ -1,0 +1,5 @@
+project: savantenvs/openexr
+target: openexr_encoding_fuzzer
+cmds:
+  - cmd: /mayhem/openexr_encoding_fuzzer
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: savantenvs/openexr
+target: openexr_roundtrip_fuzzer
+cmds:
+  - cmd: /mayhem/openexr_roundtrip_fuzzer
+    libfuzzer: true

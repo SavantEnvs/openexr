@@ -1,0 +1,5 @@
+project: savantenvs/openexr
+target: openexr_attribute_fuzzer
+cmds:
+  - cmd: /mayhem/openexr_attribute_fuzzer
+    libfuzzer: true
